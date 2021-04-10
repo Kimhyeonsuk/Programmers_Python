@@ -37,10 +37,14 @@ import Level2.ChangeBracket
 import Level2.MenuRenewal
 import Level2.MoreSpicy
 import Level2.FindDecimal
+import Level2.BiggestNumber
+import Level2.PhoneNumberLIst
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 #battle2.DiskController.solution([[0, 3], [1, 9], [2, 6]])
+Level2.PhoneNumberLIst.solution(["123", "456", "789"])
+Level2.BiggestNumber.solution([6,10,2,6])
 Level2.FindDecimal.solution('17')
 Level2.MoreSpicy.solution([1, 2, 3, 9, 10, 12],7)
 Level2.MenuRenewal.solution(["XYZ", "XWY", "WXA"],[2,3,4])
