@@ -31,9 +31,21 @@ import battle.GetLand
 import battle.TargetNumber
 import battle.CompressionString
 import Level2.SkillTree
+import Level2.CreateBigNumber
+import battle2.DiskController
+import Level2.ChangeBracket
+import Level2.MenuRenewal
+import Level2.MoreSpicy
+import Level2.FindDecimal
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+#battle2.DiskController.solution([[0, 3], [1, 9], [2, 6]])
+Level2.FindDecimal.solution('17')
+Level2.MoreSpicy.solution([1, 2, 3, 9, 10, 12],7)
+Level2.MenuRenewal.solution(["XYZ", "XWY", "WXA"],[2,3,4])
+Level2.ChangeBracket.solution("()))((()")
+Level2.CreateBigNumber.solution("4177252841",4)
 Level2.SkillTree.solution("CBD",["BACDE", "CBADF", "AECB", "BDA"])
 battle.CompressionString.solution("a")
 battle.TargetNumber.solution([1, 1, 1, 1, 1],3)
