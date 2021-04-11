@@ -39,10 +39,18 @@ import Level2.MoreSpicy
 import Level2.FindDecimal
 import Level2.BiggestNumber
 import Level2.PhoneNumberLIst
+import battle3.ExplodeBallon
+import battle3.Rank
+import battle4.VisitDistance
+import battle4.InstallBaseStation
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 #battle2.DiskController.solution([[0, 3], [1, 9], [2, 6]])
+battle4.InstallBaseStation.solution(11,[4,11],1)
+battle4.VisitDistance.solution("ULURRDLLU")
+battle3.Rank.solution(5,[[4, 3], [4, 2], [3, 2], [1, 2], [2, 5]])
+battle3.ExplodeBallon.solution([-9,1,5])
 Level2.PhoneNumberLIst.solution(["123", "456", "789"])
 Level2.BiggestNumber.solution([6,10,2,6])
 Level2.FindDecimal.solution('17')
