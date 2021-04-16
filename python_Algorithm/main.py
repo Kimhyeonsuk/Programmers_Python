@@ -43,10 +43,27 @@ import battle3.ExplodeBallon
 import battle3.Rank
 import battle4.VisitDistance
 import battle4.InstallBaseStation
+import Level2.Carpet
+import Level2.RankSearch
+import battle5.FindBiggestRactangle
+import battle5.ConnectIsland
+import battle5.RaceWayConstruction
+import Level2.QuadCompressionAndNumbering
+import battle6.CrossingTheBridge
+import Level2.VisitDistance
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 #battle2.DiskController.solution([[0, 3], [1, 9], [2, 6]])
+Level2.VisitDistance.solution("ULURRDLLU")
+battle6.CrossingTheBridge.solution([1],1)
+Level2.QuadCompressionAndNumbering.solution([[1,1,0,0],[1,0,0,0],[1,0,0,1],[1,1,1,1]])
+battle5.RaceWayConstruction.solution([[0,0,0,0,0,0,0,1],[0,0,0,0,0,0,0,0],[0,0,0,0,0,1,0,0],[0,0,0,0,1,0,0,0],[0,0,0,1,0,0,0,1],[0,0,1,0,0,0,1,0],[0,1,0,0,0,1,0,0],[1,0,0,0,0,0,0,0]])
+battle5.ConnectIsland.solution(4,[[0,1,1],[0,2,2],[1,2,5],[1,3,1],[2,3,8]]	)
+battle5.FindBiggestRactangle.solution([[1]])
+Level2.RankSearch.solution(["java backend junior pizza 150","python frontend senior chicken 210","python frontend senior chicken 150","cpp backend senior pizza 260","java backend junior chicken 80","python backend senior chicken 50"],
+                       ["java and backend and junior and pizza 100","python and frontend and senior and chicken 200","cpp and - and senior and pizza 250","- and backend and senior and - 150","- and - and - and chicken 100","- and - and - and - 150"])
+Level2.Carpet.solution(8,1)
 battle4.InstallBaseStation.solution(11,[4,11],1)
 battle4.VisitDistance.solution("ULURRDLLU")
 battle3.Rank.solution(5,[[4, 3], [4, 2], [3, 2], [1, 2], [2, 5]])
