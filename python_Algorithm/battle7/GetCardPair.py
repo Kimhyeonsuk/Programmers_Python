@@ -18,7 +18,7 @@ def cal(r,c,one,two):
         sum+=3
     return sum
 
-def calMinMove(cnt,r,c,newlist,charDict,sum):
+def calMinMove(cnt,r,c,newlist,charDict,sum,newBoard):
     if cnt==len(newlist):
         return sum
     else:
@@ -26,21 +26,20 @@ def calMinMove(cnt,r,c,newlist,charDict,sum):
             calMinMove(cnt+1,charDict[newlist[cnt]][1][0],charDict[newlist[cnt]][1][1],newlist,charDict,sum+cal(r,c,charDict[newlist[cnt]][0],charDict[newlist[cnt]][1]))
             ,calMinMove(cnt+1,charDict[newlist[cnt]][0][0],charDict[newlist[cnt]][0][1],newlist,charDict,sum+cal(r,c,charDict[newlist[cnt]][1],charDict[newlist[cnt]][0]))
         )
-def permu(cnt,charlist,newlist,charChk,r,c,charDict):
+def permu(cnt,charlist,newlist,charChk,r,c,charDict,board):
     if cnt== len(charlist):
         global answer
-        ans=calMinMove(0,r,c,newlist,charDict,0)
+        newBoard=[[col for col in row]for row in board]
+        ans=calMinMove(0,r,c,newlist,charDict,0,newBoard)
         answer=min(answer,ans)
         return
     for charNum in charlist:
         if charChk[charNum]:continue
         charChk[charNum]=True
         newlist.append(charNum)
-        permu(cnt+1,charlist,newlist,charChk,r,c,charDict)
+        permu(cnt+1,charlist,newlist,charChk,r,c,charDict,board)
         charChk[charNum]=False
         newlist.pop()
-
-
 def solution(board, r, c):
     charDict=defaultdict(list)
     charlist=set()
@@ -53,6 +52,6 @@ def solution(board, r, c):
 
     charChk=defaultdict(bool)
     newlist=[]
-    permu(0,charlist,newlist,charChk,r,c,charDict)
+    permu(0,charlist,newlist,charChk,r,c,charDict,board)
     global answer
     return answer
