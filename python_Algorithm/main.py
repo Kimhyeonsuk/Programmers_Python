@@ -53,10 +53,22 @@ import battle6.CrossingTheBridge
 import Level2.VisitDistance
 import battle7.CandidateKey
 import battle7.GetCardPair
+import battle8.NightWorkNum
+import battle8.UnregisteredUser
+import battle8.FileNameSort
+import battle9.Compression
+import battle9.InstallColumnAndLand
+import battle9.ChangingWord
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 #battle2.DiskController.solution([[0, 3], [1, 9], [2, 6]])
+#battle8.UnregisteredUser.solution(["frodo", "fradi", "crodo", "abc123", "frodoc"],["fr*d*", "*rodo", "******", "******"])
+#battle8.NightWorkNum.solution(3,[1,1])
+battle9.InstallColumnAndLand.solution(5,[[0,0,0,1],[2,0,0,1],[4,0,0,1],[0,1,1,1],[1,1,1,1],[2,1,1,1],[3,1,1,1],[2,0,0,0],[1,1,1,0],[2,2,0,1]])
+battle9.ChangingWord.solution('hit','cog',["hot", "dot", "dog", "lot", "log"])
+battle9.Compression.solution("ABABABABABABABAB")
+battle8.FileNameSort.solution(["F-012 b", "F-12 c", "F-0012 g", "F-12 s"])
 battle7.GetCardPair.solution([[1,0,0,3],[2,0,0,0],[0,0,0,2],[3,0,1,0]],1,0)
 battle7.CandidateKey.solution([["100","ryan","music","2"],["200","apeach","math","2"],["300","tube","computer","3"],["400","con","computer","4"],["500","muzi","music","3"],["600","apeach","music","2"]])
 Level2.VisitDistance.solution("ULURRDLLU")
