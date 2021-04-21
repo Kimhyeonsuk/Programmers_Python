@@ -61,12 +61,18 @@ import battle9.InstallColumnAndLand
 import battle9.ChangingWord
 import battle10.BestAlbum
 import battle10.NumberGame
+import battle11.BestSet
+import battle11.NQueen
+import battle11.InsertAdvertisement
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 #battle2.DiskController.solution([[0, 3], [1, 9], [2, 6]])
 #battle8.UnregisteredUser.solution(["frodo", "fradi", "crodo", "abc123", "frodoc"],["fr*d*", "*rodo", "******", "******"])
 #battle8.NightWorkNum.solution(3,[1,1])
+#battle11.InsertAdvertisement.solution("99:59:59","25:00:00",["69:59:59-89:59:59", "01:00:00-21:00:00", "79:59:59-99:59:59", "11:00:00-31:00:00"])
+#battle11.NQueen.solution(4)
+battle11.BestSet.solution(3,3)
 battle10.NumberGame.solution([5,1,3,7],[2,2,6,8])
 battle10.BestAlbum.solution(["classic", "pop", "classic", "classic", "pop"],[500, 600, 150, 800, 2500])
 battle9.InstallColumnAndLand.solution(5,[[0,0,0,1],[2,0,0,1],[4,0,0,1],[0,1,1,1],[1,1,1,1],[2,1,1,1],[3,1,1,1],[2,0,0,0],[1,1,1,0],[2,2,0,1]])
