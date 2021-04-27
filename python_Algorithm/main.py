@@ -64,6 +64,15 @@ import battle10.NumberGame
 import battle11.BestSet
 import battle11.NQueen
 import battle11.InsertAdvertisement
+import battle12.StandInLine
+import battle12.JumpFar
+import battle12.FindRootGame
+import battle13.GemShopping
+import battle13.ShuttleBus
+import Battle14.PresentByN
+import Battle14.MakeAllZero
+import battle15.ChuseokTraffic
+import battle15.Network
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -72,6 +81,26 @@ def print_hi(name):
 #battle8.NightWorkNum.solution(3,[1,1])
 #battle11.InsertAdvertisement.solution("99:59:59","25:00:00",["69:59:59-89:59:59", "01:00:00-21:00:00", "79:59:59-99:59:59", "11:00:00-31:00:00"])
 #battle11.NQueen.solution(4)
+#battle13.ShuttleBus.solution(10,60,45,["23:59","23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59"])
+battle15.Network.solution(3,[[1, 1, 0], [1, 1, 0], [0, 0, 1]])
+battle15.ChuseokTraffic.solution([
+"2016-09-15 20:59:57.421 0.351s",
+"2016-09-15 20:59:58.233 1.181s",
+"2016-09-15 20:59:58.299 0.8s",
+"2016-09-15 20:59:58.688 1.041s",
+"2016-09-15 20:59:59.591 1.412s",
+"2016-09-15 21:00:00.464 1.466s",
+"2016-09-15 21:00:00.741 1.581s",
+"2016-09-15 21:00:00.748 2.31s",
+"2016-09-15 21:00:00.966 0.381s",
+"2016-09-15 21:00:02.066 2.62s"
+])
+Battle14.MakeAllZero.solution([-5,0,2,1,2],[[0,1],[3,4],[2,3],[0,3]])
+Battle14.PresentByN.solution(5,12)
+battle13.GemShopping.solution(["AA", "AB","AB","AB","AB","AB","AB","AB","AB","AB", "AC", "AA", "AC"])
+battle12.FindRootGame.solution([[5,3],[11,5],[13,3],[3,5],[6,1],[1,3],[8,6],[7,2],[2,2]])
+battle12.JumpFar.solution(4)
+battle12.StandInLine.solution(3,5)
 battle11.BestSet.solution(3,3)
 battle10.NumberGame.solution([5,1,3,7],[2,2,6,8])
 battle10.BestAlbum.solution(["classic", "pop", "classic", "classic", "pop"],[500, 600, 150, 800, 2500])
