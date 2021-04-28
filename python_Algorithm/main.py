@@ -73,6 +73,8 @@ import Battle14.PresentByN
 import Battle14.MakeAllZero
 import battle15.ChuseokTraffic
 import battle15.Network
+import Delivery
+import MatrixSpin
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -82,6 +84,8 @@ def print_hi(name):
 #battle11.InsertAdvertisement.solution("99:59:59","25:00:00",["69:59:59-89:59:59", "01:00:00-21:00:00", "79:59:59-99:59:59", "11:00:00-31:00:00"])
 #battle11.NQueen.solution(4)
 #battle13.ShuttleBus.solution(10,60,45,["23:59","23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59"])
+MatrixSpin.solution(100,100,[[1,1,2,99]])
+Delivery.solution(5,[[1,2,1],[2,3,3],[5,2,2],[1,4,2],[5,3,1],[5,4,2]],3)
 battle15.Network.solution(3,[[1, 1, 0], [1, 1, 0], [0, 0, 1]])
 battle15.ChuseokTraffic.solution([
 "2016-09-15 20:59:57.421 0.351s",
