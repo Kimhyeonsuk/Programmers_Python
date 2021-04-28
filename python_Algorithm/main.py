@@ -75,6 +75,10 @@ import battle15.ChuseokTraffic
 import battle15.Network
 import Delivery
 import MatrixSpin
+import battle16.StarArray
+import battle16.ArraySideSpin
+import PresentNumber
+import OperationMaximize
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -84,6 +88,11 @@ def print_hi(name):
 #battle11.InsertAdvertisement.solution("99:59:59","25:00:00",["69:59:59-89:59:59", "01:00:00-21:00:00", "79:59:59-99:59:59", "11:00:00-31:00:00"])
 #battle11.NQueen.solution(4)
 #battle13.ShuttleBus.solution(10,60,45,["23:59","23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59"])
+#battle16.ArraySideSpin.solution(6,6,[[2,2,5,4],[3,3,6,6],[5,1,6,3]])
+OperationMaximize.solution("100-200*300-500+20")
+PresentNumber.solution(15)
+battle16.ArraySideSpin.solution(2,2,[[1,1,2,2]])
+battle16.StarArray.solution([0,3,3,0,7,2,0,2,2,0])
 MatrixSpin.solution(100,100,[[1,1,2,99]])
 Delivery.solution(5,[[1,2,1],[2,3,3],[5,2,2],[1,4,2],[5,3,1],[5,4,2]],3)
 battle15.Network.solution(3,[[1, 1, 0], [1, 1, 0], [0, 0, 1]])
