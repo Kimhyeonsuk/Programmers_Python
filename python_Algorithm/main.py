@@ -79,6 +79,12 @@ import battle16.StarArray
 import battle16.ArraySideSpin
 import PresentNumber
 import OperationMaximize
+import battle17.Delivery
+import battle17.TravleDist
+import MakeJadenCaseString
+import NewsClustering
+import FreindsFourBlock
+import Cash
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -89,6 +95,12 @@ def print_hi(name):
 #battle11.NQueen.solution(4)
 #battle13.ShuttleBus.solution(10,60,45,["23:59","23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59"])
 #battle16.ArraySideSpin.solution(6,6,[[2,2,5,4],[3,3,6,6],[5,1,6,3]])
+Cash.solution(2,["Jeju", "Pangyo", "Seoul", "NewYork", "LA", "SanFrancisco", "Seoul", "Rome", "Paris", "Jeju", "NewYork", "Rome"])
+FreindsFourBlock.solution(1,2,[])
+NewsClustering.solution('FRANCE','french')
+MakeJadenCaseString.solution("3people unFollowed me")
+battle17.TravleDist.solution([['ICN','B'],['B','ICN'],['ICN','A'],['A','D'],['D','A']])
+battle17.Delivery.solution(6,[[1,2,1],[1,3,2],[2,3,2],[3,4,3],[3,5,2],[3,5,3],[5,6,1]],4)
 OperationMaximize.solution("100-200*300-500+20")
 PresentNumber.solution(15)
 battle16.ArraySideSpin.solution(2,2,[[1,1,2,2]])
