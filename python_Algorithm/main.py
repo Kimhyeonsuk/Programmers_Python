@@ -85,6 +85,9 @@ import MakeJadenCaseString
 import NewsClustering
 import FreindsFourBlock
 import Cash
+import battle19.SellToothBrush
+import battle19.ThreeXNTiling
+import battle19.TaxiFee
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -95,6 +98,12 @@ def print_hi(name):
 #battle11.NQueen.solution(4)
 #battle13.ShuttleBus.solution(10,60,45,["23:59","23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59"])
 #battle16.ArraySideSpin.solution(6,6,[[2,2,5,4],[3,3,6,6],[5,1,6,3]])
+battle19.TaxiFee.solution(6,4,6,2,[[4, 1, 10], [3, 5, 24], [5, 6, 2], [3, 1, 41], [5, 1, 24], [4, 6, 50], [2, 4, 66], [2, 3, 22], [1, 6, 25]])
+battle19.ThreeXNTiling.solution(10)
+battle19.SellToothBrush.solution(["john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"],
+                                 ["-", "-", "mary", "edward", "mary", "mary", "jaimie", "edward"],
+                                 ["young", "john", "tod", "emily", "mary"],
+                                 [12, 4, 2, 5, 10])
 Cash.solution(2,["Jeju", "Pangyo", "Seoul", "NewYork", "LA", "SanFrancisco", "Seoul", "Rome", "Paris", "Jeju", "NewYork", "Rome"])
 FreindsFourBlock.solution(1,2,[])
 NewsClustering.solution('FRANCE','french')
