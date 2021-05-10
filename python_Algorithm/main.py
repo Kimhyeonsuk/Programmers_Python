@@ -88,6 +88,21 @@ import Cash
 import battle19.SellToothBrush
 import battle19.ThreeXNTiling
 import battle19.TaxiFee
+import battle20.LongestFelinDrop
+import battle20.Thief
+import battle20.Camera
+import battle21.LockerAndKey
+import battle21.ColumnAndLandInstall
+import GemShopping
+import battle22.StoneBridge
+import battle22.FIFOscheduling
+import battle23.WordPuzzle
+import battle24.twoi
+import battle24.three
+import battle24.four
+import level3.ChuseokTraffic
+import level3.NodeThatMostfar
+import level3.DiskController
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -98,6 +113,23 @@ def print_hi(name):
 #battle11.NQueen.solution(4)
 #battle13.ShuttleBus.solution(10,60,45,["23:59","23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59"])
 #battle16.ArraySideSpin.solution(6,6,[[2,2,5,4],[3,3,6,6],[5,1,6,3]])
+#battle20.Thief.solution([1,2,1,2,1,2,1,2])
+#battle20.Camera.solution([[-20,15], [-14,-5], [-18,-13], [-5,-3]])
+level3.DiskController.solution([[0, 3], [1, 9], [2, 6]])
+level3.NodeThatMostfar.solution(6,[[3, 6], [4, 3], [3, 2], [1, 3], [1, 2], [2, 4], [5, 2]])
+level3.ChuseokTraffic.solution([
+"2016-09-15 01:00:04.002 2.0s",
+])
+battle24.four.solution(4,1,4,[[1, 2, 1], [3, 2, 1], [2, 4, 1]],[2,3])
+battle24.three.solution(8,2,["D 2","C","U 3","C","D 4","C","U 2","Z","Z","U 1","C"])
+battle24.twoi.solution([["POOOP", "OXXOX", "OPXPX", "OOXOX", "POXXP"], ["POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP"], ["PXOPX", "OXOXP", "OXPXX", "OXXXP", "POOXX"], ["OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"], ["PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP"]])
+battle23.WordPuzzle.solution(	["ab", "na", "n", "a", "bn"],"nabnabn")
+battle22.FIFOscheduling.solution(6,[1,2,3])
+battle22.StoneBridge.solution(25,[2,14,11,21,17],2)
+GemShopping.solution(["DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"])
+battle21.ColumnAndLandInstall.solution(5,[[1,0,0,1],[1,1,1,1],[2,1,0,1],[2,2,1,1],[5,0,0,1],[5,1,0,1],[4,2,1,1],[3,2,1,1]])
+battle21.LockerAndKey.solution([[0, 0, 0], [1, 0, 0], [0, 1, 1]],[[1, 1, 1], [1, 1, 0], [1, 0, 1]])
+battle20.LongestFelinDrop.solution("abababababababababababbabababababab")
 battle19.TaxiFee.solution(6,4,6,2,[[4, 1, 10], [3, 5, 24], [5, 6, 2], [3, 1, 41], [5, 1, 24], [4, 6, 50], [2, 4, 66], [2, 3, 22], [1, 6, 25]])
 battle19.ThreeXNTiling.solution(10)
 battle19.SellToothBrush.solution(["john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"],
