@@ -103,6 +103,8 @@ import battle24.four
 import level3.ChuseokTraffic
 import level3.NodeThatMostfar
 import level3.DiskController
+import battle25.CookieShopping
+import battle25.MakeCardPari
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -115,6 +117,14 @@ def print_hi(name):
 #battle16.ArraySideSpin.solution(6,6,[[2,2,5,4],[3,3,6,6],[5,1,6,3]])
 #battle20.Thief.solution([1,2,1,2,1,2,1,2])
 #battle20.Camera.solution([[-20,15], [-14,-5], [-18,-13], [-5,-3]])
+#battle25.MakeCardPari.solution([[1,0,0,3],[2,0,0,0],[0,0,0,2],[3,0,1,0]],1,0)
+# for i in range(1,4):
+#     for j in range(1,4):
+#         for k in range(1,4):
+#             for p in range(1,4):
+#                 a=battle25.CookieShopping.solution([i,j,k,p])
+                #print(a)
+battle25.CookieShopping.solution([1,1,2,3])
 level3.DiskController.solution([[0, 3], [1, 9], [2, 6]])
 level3.NodeThatMostfar.solution(6,[[3, 6], [4, 3], [3, 2], [1, 3], [1, 2], [2, 4], [5, 2]])
 level3.ChuseokTraffic.solution([
