@@ -105,6 +105,15 @@ import level3.NodeThatMostfar
 import level3.DiskController
 import battle25.CookieShopping
 import battle25.MakeCardPari
+import level3.Lank
+import battle26.OptimizedMatrix
+import battle26.FindRouteGame
+import battle27.RightBracketNumber
+import battle27.NumberBlock
+import battle27.ShuttleBus
+import battle28.LySearch
+import battle29.TravleRoute
+import battle29.Move110
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -117,7 +126,16 @@ def print_hi(name):
 #battle16.ArraySideSpin.solution(6,6,[[2,2,5,4],[3,3,6,6],[5,1,6,3]])
 #battle20.Thief.solution([1,2,1,2,1,2,1,2])
 #battle20.Camera.solution([[-20,15], [-14,-5], [-18,-13], [-5,-3]])
-#battle25.MakeCardPari.solution([[1,0,0,3],[2,0,0,0],[0,0,0,2],[3,0,1,0]],1,0)
+battle29.Move110.solution(["1110","100111100","0111111010"])
+battle29.TravleRoute.solution([["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]])
+battle28.LySearch.solution(["frodo", "front", "frost", "frozen", "frame", "kakao"],["fro??", "????o", "fr???", "fro???", "pro?"])
+battle27.ShuttleBus.solution(10,60,45,["23:59","23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59"])
+battle27.NumberBlock.solution(999999990,1000000000)
+battle27.RightBracketNumber.solution(3)
+battle26.FindRouteGame.solution([[5,3],[11,5],[13,3],[3,5],[6,1],[1,3],[8,6],[7,2],[2,2]])
+battle26.OptimizedMatrix.solution([[5,3],[3,10],[10,6]])
+level3.Lank.solution(5,[[4, 3], [4, 2], [3, 2], [1, 2], [2, 5]])
+battle25.MakeCardPari.solution([[1,0,0,3],[2,0,0,0],[0,0,0,2],[3,0,1,0]],1,0)
 # for i in range(1,4):
 #     for j in range(1,4):
 #         for k in range(1,4):
