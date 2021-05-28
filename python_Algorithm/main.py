@@ -3,7 +3,7 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-import  SelectTwoPlus
+import SelectTwoPlus
 import CrainPickDoll
 import PlayerWhoDidntEnter
 import RecommandNewId
@@ -114,9 +114,12 @@ import battle27.ShuttleBus
 import battle28.LySearch
 import battle29.TravleRoute
 import battle29.Move110
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+import BaekJoon.Stack.ValueOfBracket2504
+import BaekJoon.Stack.Tower2493
+import BaekJoon.Stack.Keyloger5397
+import BaekJoon.Stack.PosfixNotation1918
+import BaekJoon.Stack.ExplosionOfString # Press Ctrl+F8 to toggle the breakpoint.
+import BaekJoon.Stack.RightBigNumber
 #battle2.DiskController.solution([[0, 3], [1, 9], [2, 6]])
 #battle8.UnregisteredUser.solution(["frodo", "fradi", "crodo", "abc123", "frodoc"],["fr*d*", "*rodo", "******", "******"])
 #battle8.NightWorkNum.solution(3,[1,1])
@@ -126,6 +129,12 @@ def print_hi(name):
 #battle16.ArraySideSpin.solution(6,6,[[2,2,5,4],[3,3,6,6],[5,1,6,3]])
 #battle20.Thief.solution([1,2,1,2,1,2,1,2])
 #battle20.Camera.solution([[-20,15], [-14,-5], [-18,-13], [-5,-3]])
+BaekJoon.Stack.RightBigNumber.func()
+BaekJoon.Stack.ExplosionOfString.func()
+BaekJoon.Stack.PosfixNotation1918.main()
+BaekJoon.Stack.Keyloger5397.main()
+BaekJoon.Stack.Tower2493.main()
+BaekJoon.Stack.ValueOfBracket2504.solution('(()[[]])([])')
 battle29.Move110.solution(["1110","100111100","0111111010"])
 battle29.TravleRoute.solution([["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]])
 battle28.LySearch.solution(["frodo", "front", "frost", "frozen", "frame", "kakao"],["fro??", "????o", "fr???", "fro???", "pro?"])
