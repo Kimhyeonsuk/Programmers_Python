@@ -120,6 +120,13 @@ import BaekJoon.Stack.Keyloger5397
 import BaekJoon.Stack.PosfixNotation1918
 import BaekJoon.Stack.ExplosionOfString # Press Ctrl+F8 to toggle the breakpoint.
 import BaekJoon.Stack.RightBigNumber
+import Fintech.two
+import Fintech.three
+import Fintech.four
+import Fintech.one
+import BaekJoon.Sort.newCrew
+import BaekJoon.Sort.GemTheif
+import BaekJoon.TwoPointer.SumOfnumber2003
 #battle2.DiskController.solution([[0, 3], [1, 9], [2, 6]])
 #battle8.UnregisteredUser.solution(["frodo", "fradi", "crodo", "abc123", "frodoc"],["fr*d*", "*rodo", "******", "******"])
 #battle8.NightWorkNum.solution(3,[1,1])
@@ -129,6 +136,10 @@ import BaekJoon.Stack.RightBigNumber
 #battle16.ArraySideSpin.solution(6,6,[[2,2,5,4],[3,3,6,6],[5,1,6,3]])
 #battle20.Thief.solution([1,2,1,2,1,2,1,2])
 #battle20.Camera.solution([[-20,15], [-14,-5], [-18,-13], [-5,-3]])
+BaekJoon.TwoPointer.SumOfnumber2003.main()
+BaekJoon.Sort.GemTheif.main()
+BaekJoon.Sort.newCrew.main()
+Fintech.one.solution('123903')
 BaekJoon.Stack.RightBigNumber.func()
 BaekJoon.Stack.ExplosionOfString.func()
 BaekJoon.Stack.PosfixNotation1918.main()
