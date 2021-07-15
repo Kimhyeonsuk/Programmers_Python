@@ -127,6 +127,20 @@ import Fintech.one
 import BaekJoon.Sort.newCrew
 import BaekJoon.Sort.GemTheif
 import BaekJoon.TwoPointer.SumOfnumber2003
+import BaekJoon.DynamicProgramming.SumOfSquarednum1699
+import BaekJoon.Graph.FindRoute11403
+import BaekJoon.Graph.MinSpanningTree
+import BaekJoon.Dijkstra.UnknownDestination9370
+import BaekJoon.Graph.DownHill1520
+import BaekJoon.Graph.Fluid11404
+import BaekJoon.Graph.StarTunnel
+import BaekJoon.Graph.ACMCraft1005
+import BaekJoon.Graph.Panda1937
+import BaekJoon.Graph.LetsgoMoon1194
+import BaekJoon.Graph.NetworkConnection1922
+import BaekJoon.Graph.TreasureIsaland2589
+import BaekJoon.Graph.GetMinCost1916
+import BaekJoon.Graph.GetMinVal11779
 #battle2.DiskController.solution([[0, 3], [1, 9], [2, 6]])
 #battle8.UnregisteredUser.solution(["frodo", "fradi", "crodo", "abc123", "frodoc"],["fr*d*", "*rodo", "******", "******"])
 #battle8.NightWorkNum.solution(3,[1,1])
@@ -136,6 +150,20 @@ import BaekJoon.TwoPointer.SumOfnumber2003
 #battle16.ArraySideSpin.solution(6,6,[[2,2,5,4],[3,3,6,6],[5,1,6,3]])
 #battle20.Thief.solution([1,2,1,2,1,2,1,2])
 #battle20.Camera.solution([[-20,15], [-14,-5], [-18,-13], [-5,-3]])
+BaekJoon.Graph.GetMinVal11779.main()
+BaekJoon.Graph.GetMinCost1916.main()
+BaekJoon.Graph.TreasureIsaland2589.main()
+BaekJoon.Graph.NetworkConnection1922.main()
+BaekJoon.Graph.LetsgoMoon1194.main()
+BaekJoon.Graph.Panda1937.main()
+BaekJoon.Graph.ACMCraft1005.main()
+BaekJoon.Graph.StarTunnel.main()
+BaekJoon.Graph.Fluid11404.main()
+BaekJoon.Graph.DownHill1520.main()
+BaekJoon.Dijkstra.UnknownDestination9370.main()
+BaekJoon.Graph.MinSpanningTree.main()
+BaekJoon.Graph.FindRoute11403.main()
+BaekJoon.DynamicProgramming.SumOfSquarednum1699.main()
 BaekJoon.TwoPointer.SumOfnumber2003.main()
 BaekJoon.Sort.GemTheif.main()
 BaekJoon.Sort.newCrew.main()
