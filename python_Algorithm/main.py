@@ -141,6 +141,14 @@ import BaekJoon.Graph.NetworkConnection1922
 import BaekJoon.Graph.TreasureIsaland2589
 import BaekJoon.Graph.GetMinCost1916
 import BaekJoon.Graph.GetMinVal11779
+import skt.sktOne
+import sktTwo.three
+import sktTwo.two
+import BaekJoon.Combinations.Dict1256
+BaekJoon.Combinations.Dict1256.main()
+sktTwo.two.solution()
+sktTwo.three.main()
+skt.sktOne.solution('abdddbb')
 #battle2.DiskController.solution([[0, 3], [1, 9], [2, 6]])
 #battle8.UnregisteredUser.solution(["frodo", "fradi", "crodo", "abc123", "frodoc"],["fr*d*", "*rodo", "******", "******"])
 #battle8.NightWorkNum.solution(3,[1,1])
@@ -150,6 +158,7 @@ import BaekJoon.Graph.GetMinVal11779
 #battle16.ArraySideSpin.solution(6,6,[[2,2,5,4],[3,3,6,6],[5,1,6,3]])
 #battle20.Thief.solution([1,2,1,2,1,2,1,2])
 #battle20.Camera.solution([[-20,15], [-14,-5], [-18,-13], [-5,-3]])
+
 BaekJoon.Graph.GetMinVal11779.main()
 BaekJoon.Graph.GetMinCost1916.main()
 BaekJoon.Graph.TreasureIsaland2589.main()
