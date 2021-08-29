@@ -145,6 +145,12 @@ import skt.sktOne
 import sktTwo.three
 import sktTwo.two
 import BaekJoon.Combinations.Dict1256
+import AppleMangoGallery.MakeBridge
+import AppleMangoGallery.SecretClass
+import AppleMangoGallery.AssignClassRoom
+AppleMangoGallery.AssignClassRoom.main()
+AppleMangoGallery.SecretClass.main()
+AppleMangoGallery.MakeBridge.main()
 BaekJoon.Combinations.Dict1256.main()
 sktTwo.two.solution()
 sktTwo.three.main()
