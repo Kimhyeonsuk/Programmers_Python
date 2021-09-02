@@ -148,6 +148,10 @@ import BaekJoon.Combinations.Dict1256
 import AppleMangoGallery.MakeBridge
 import AppleMangoGallery.SecretClass
 import AppleMangoGallery.AssignClassRoom
+import BaekJoon.PriorityQueue.NthNumber
+import BaekJoon.PriorityQueue.ShoppingMall
+BaekJoon.PriorityQueue.ShoppingMall.main()
+BaekJoon.PriorityQueue.NthNumber.main()
 AppleMangoGallery.AssignClassRoom.main()
 AppleMangoGallery.SecretClass.main()
 AppleMangoGallery.MakeBridge.main()
